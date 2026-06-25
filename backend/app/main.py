@@ -17,7 +17,7 @@ from app.api.chat import router as chat_router
 from app.api.task_routes import router as task_router
 from app.api.approvals import router as approvals_router
 from app.api.integrations import router as integrations_router
-from app.api.users import router as users_routerp
+from app.api.users import router as users_router
 
 app = FastAPI(
     title="TaskPilot AI API",
